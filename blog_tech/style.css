@@ -1,0 +1,247 @@
+ardar/* settaggi font */
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+    h1, h2, h3 {
+    color: white;
+}
+
+    p {
+    color:aqua
+    }
+
+    ul{
+    font-size: 20px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 50px;
+    }
+
+    /* navbar */
+
+    nav{    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    }
+
+    .link{
+    text-decoration: none;
+    color: #CAF0F8;
+    }
+
+    .link:hover{
+    color: #17243B;
+    }
+
+
+    .logo{
+    width: 100px;
+    height: 50px;
+    }
+
+    .logocontainer{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    }
+
+    .title{
+    color: white;
+    font-size: 55px;
+    text-shadow: 1px 5px 11px #CAF0F8;
+    text-align: center;
+    }
+
+    /* pagina articolo */
+
+    .productContainer{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    }
+
+    .descrizioni{
+    color:aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    }
+
+
+    .titlepiccolo{
+    color: #CAF0F8;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    /* card */
+
+    .cardContainer{
+    min-height: 500px;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+    
+    .card1{
+    background-color: #17243B;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .img-product{
+    width: 150px;
+    height: 150px;
+    }
+    
+    .name-product{
+    list-style: none;
+    color: rgb(219, 219, 219);
+    text-underline-offset: 10px;
+    }
+
+    .description{
+    margin-top: 60px;
+    color: #CAF0F8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    }
+
+    .card2{
+    background-color: #17243B;
+    height: 400px;
+    width: 250px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .card3{
+    background-color: #17243B;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .list{
+    margin: 10px;
+    }
+
+
+    /* footer */
+
+    footer{
+    position: fixed;    
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #17243B;
+    color: aqua;
+    text-align: center;  
+    }
+
+
+    .footerTitle{
+    color: whitesmoke;
+    }
+
+    .contatti{
+    display: flex;
+    align-items: center;
+    }
+
+    .linkfooter{
+    color:#CAF0F8;
+    }
+
+
+    /* media-query */
+
+    @media screen and(max-width: 900px) {
+    
+        /* navbar */
+
+        ul{
+            font-size: 12px;
+        }
+
+        ul > a{
+            margin: 20px;
+
+        }
+
+        .logo{
+            width: 40px;
+            height: 20px;
+        }
+
+        /* titolo */
+
+        .title{
+        font-size: 25px;
+        }
+
+        /* card */
+
+        .cardContainer{
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        }
+
+
+        /* footer */
+
+        footer{
+        flex-direction: column;
+        }
+
+        /* card1 */
+
+        .productContainer{
+        flex-direction: column;
+        text-align: center;
+        }
+
+        .descrizioni{
+        font-size: 20px;
+        }
+
+
+    }
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+
+
+
+/* Settaggi sfondo */
+
+.bgcustom{
+background-image: url(./media/Sfondo.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+}

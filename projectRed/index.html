@@ -1,0 +1,474 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&
+  family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--FONTAWESOME CDN  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="./style.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+           
+            primary: "darkred", 
+            secondary:"#C67F7F",
+            accent: "#ececec",
+            
+          },
+
+          backgroundImage: {
+        
+            bgHeader : "linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.07)), url('./media/mountains2.png'), url('./media/switzerland.jpg')",
+        },
+
+        },
+      }
+    }
+  </script>
+
+</head>
+<body class="bg-accent">
+
+    <!-- NAVBAR -->
+
+    <nav class=" bg-slate-200 flex flex-col items-center">
+
+        <div>
+            <img class= "w-40" src="./media/logo.png">
+        </div>
+
+        <ul class="w-full flex justify-evenly mt-10 mx-5">
+
+            <a href="">
+                <li>Primo Link</li>
+            </a>
+
+            <a href="">
+                <li>Secondo Link</li>
+            </a>
+
+            <a href="">
+                <li>Terzo Link</li>
+            </a>
+
+            <a href="">
+                <li>Quarto Link</li>
+            </a>
+
+        </ul>
+
+
+    </nav>
+
+    <!-- FINE NAVBAR -->
+
+    <!-- HEADER -->
+
+    <header class="bg-bgHeader min-h-[80vh] bg-no-repeat bg-cover bg-center flex justify-center items-center">
+
+        <h1 class="uppercase-text-primary tracking-[30px] text-4xl md:text-8xl">Lorem</h1>
+    
+    </header>
+
+    <!-- FINE HEADER -->
+
+    <!-- Inizio paragrafo + colonne icone -->
+
+    <div class=" py-10 bg-accent flex justify-center pt-20">
+
+      <p class=" text bg-secondary font-semibold text-center text-2xl w-1/2">
+        
+        <i class="fa-solid fa-quote-left text-primary"></i>
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quas voluptates, omnis vitae voluptas, maxime fugiat rerum et mollitia
+        optio dolores accusamus nemo recusandae delectus dicta ratione accusantium suscipit vero.
+      
+        <i class="fa-solid fa-quote-right text-primary"></i>
+      
+      </p>
+
+    </div>
+
+    <div class="bg-accent py-52 flex justify-center">
+
+      <div class="container flex">
+
+        <div class="w-full md:w-1/4 my-8 text-center">
+          
+          <i class="fa-solid fa-snowflake text-primary text-3xl"></i>
+
+          <p class="my-4">Neve</p>
+
+    <div class="h-1 w-52 bg-primary mx-auto relative before:content-['']
+          before:w-5 before:h-5 before:rounded-full before:border-primary before:border-2 
+          before:bg-secondary before:absolute before:bottom-1/2 before:translate-y-1/2 before:translate-x-[-50%]">
+
+
+    </div>
+
+    </div>
+
+    <div class="w-full md:w-1/4 my-8 text-center">
+          
+          <i class="fa-solid fa-mountain-sun text-primary text-3xl"></i>
+
+          <p class="my-4">Montagna</p>
+
+          <div class="h-1 w-52 bg-primary mx-auto relative before:content-['']
+          before:w-5 before:h-5 before:rounded-full before:border-primary before:border-2 
+          before:bg-secondary before:absolute before:bottom-1/2 before:translate-y-1/2 before:translate-x-[-50%]">
+
+
+    </div>
+
+    </div>
+
+    <div class="w-full md:w-1/4 my-8 text-center">
+          
+          <i class="fa-solid fa-campground text-primary text-3xl"></i>
+
+          <p class="my-4">Campeggio</p>
+
+          <div class="h-1 w-52 bg-primary mx-auto relative before:content-['']
+          before:w-5 before:h-5 before:rounded-full before:border-primary before:border-2 
+          before:bg-secondary before:absolute before:bottom-1/2 before:translate-y-1/2 before:translate-x-[-50%]">
+
+
+    </div>
+
+    </div>
+
+    <div class="w-full md:w-1/4 my-8 text-center">
+          
+          <i class="fa-regular fa-map text-primary text-3xl"></i>
+
+          <p class="my-4">Escursionismo</p>
+
+    <div class="h-1 w-52 bg-primary mx-auto relative before:content-['']
+          before:w-5 before:h-5 before:rounded-full before:border-primary before:border-2 
+          before:bg-secondary before:absolute before:bottom-1/2 before:translate-y-1/2 before:translate-x-[-50%]">
+
+
+    </div>
+
+    </div>
+
+      </div>
+
+    </div>
+    
+    <!-- Fine paragrafo + colonne icone -->
+
+    <!-- Inizio sezione paragrafi e bottoni -->
+
+    <div class="bg-accent flex-col md:flex md:flex-row justify-between mx-8">
+
+      <div class="w-full md:w-[450px] text-center md:text-start py-10 px-10">
+
+        <h2 class="text-2xl text-primary fond-semibold">Lorem Ipsum </h2>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit eaque expedita repellendus rem, blanditiis doloribus, 
+          magni tempora temporibus recusandae amet officia excepturi libero nostrum laudantium, dolor ipsam eius possimus!</p>
+
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, vitae officia dignissimos minus in tenetur praesentium maiores,
+             delectus iste inventore explicabo? Vero corrupti molestias possimus iusto, aperiam tempora expedita quaerat.ù</p>
+
+    </div>
+
+      <div class="w-full md:w-[450px] text-center md:text-right py-10 px-10">
+
+        <h2 class="text-2xl text-primary fond-semibold">Lorem Ipsum </h2>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit impedit eaque expedita repellendus rem, blanditiis doloribus, 
+          magni tempora temporibus recusandae amet officia excepturi libero nostrum laudantium, dolor ipsam eius possimus!</p>
+
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, vitae officia dignissimos minus in tenetur praesentium maiores,
+             delectus iste inventore explicabo? Vero corrupti molestias possimus iusto, aperiam tempora expedita quaerat.ù</p>
+
+    </div>
+
+
+    </div>
+
+    <div class="mt-10 bg-accent">
+
+      <button class="bg-primary text-slate-200 font-bold uppercase block mx-auto px-5 py-3">
+        Cliccami
+      </button>
+
+      <img src="./media/trees2.png" alt="">
+
+    </div>
+
+    <!-- Inizio sezione paragrafi e bottoni -->
+
+    <!-- Inizio Sezione Timeline -->
+
+    <div class= "min-h-[500px] bg-white pt-10 flex-wrap md:flex md:justify-between md:flex-nowrap">
+
+      <div class="ml-10">
+
+      <h2 class="text-primary uppercase text-3xl fond-bold">Out Timeline</h2>
+
+    <div class="border-1-4 mt-10 border-primary px-4 relative">
+
+      <h3 class="text-primary text-2xl before:content-[''] before:h-4 before:w-4 bg-white 
+      before:border-2 before:border-solid before:border-primary before:rounded-full before:absolute
+      before:left-[-8.5px]">
+      Lorem Ipsum</h3>
+
+      <p class="w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam facilis sunt enim, iste aperiam 
+      oluptatibus modi dignissimos repellendus quia, dolorum unde numquam aspernatur id amet explicabo autem eveniet? Corrupti.</p>
+
+      <h3 class="text-primary text-2xl before:content-[''] before:h-4 before:w-4 bg-white 
+      before:border-2 before:border-solid before:border-primary before:rounded-full before:absolute
+      before:left-[-8.5px]">
+      Lorem Ipsum</h3>
+    
+      <p class="w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam facilis sunt enim, iste aperiam 
+      voluptatibus modi dignissimos repellendus quia, dolorum unde numquam aspernatur id amet explicabo autem eveniet? Corrupti.</p>
+
+      <h3 class="text-primary text-2xl before:content-[''] before:h-4 before:w-4 bg-white 
+      before:border-2 before:border-solid before:border-primary before:rounded-full before:absolute
+      before:left-[-8.5px]">
+      Lorem Ipsum</h3>
+        
+      <p class="w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam facilis sunt enim, iste aperiam 
+      voluptatibus modi dignissimos repellendus quia, dolorum unde numquam aspernatur id amet explicabo autem eveniet? Corrupti.</p>
+
+      <h3 class="text-primary text-2xl before:content-[''] before:h-4 before:w-4 bg-white 
+      before:border-2 before:border-solid before:border-primary before:rounded-full before:absolute
+      before:left-[-8.5px]">
+      Lorem Ipsum</h3>
+            
+      <p class="w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quisquam facilis sunt enim, iste aperiam 
+      voluptatibus modi dignissimos repellendus quia, dolorum unde numquam aspernatur id amet explicabo autem eveniet? Corrupti.</p>
+    </div>
+
+      </div>
+
+      <div>
+        <img src="./media/klipartz.com (16).png" alt="">
+      </div>
+
+    </div>
+
+    <!-- Fine Sezione Timeline -->
+
+    <!-- Inizio Sezione Il nostro team -->
+
+    <div>
+
+    <h2 class="uppercase text-primary mt-20 ml-10 text-3xl font-bold">Il nostro Team</h2>
+
+    <div class="md:flex md:justify-evenly mt-10">
+
+      <div class="w-full md:w-1/4 md:px-14 text-center my-10">
+
+          <img class="block mx-auto rounded-full h-32 w-32 border-primary border-solid border-2 p-1" src="./media/landscape-975091_1920.jpg" alt="">
+
+          <h3 class="text-primary mt-3">CEO</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, placeat?</p>
+
+          <div class="mt-2">
+
+            <i class="fa-brands fa-instagram text-primary"></i>
+            <i class="fa-brands fa-linkedin text-primary mx-4"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+
+          </div>
+
+
+      </div>
+
+    <div class="w-full md:w-1/4 md:px-14 text-center my-10">
+
+          <img class="block mx-auto rounded-full h-32 w-32 border-primary border-solid border-2 p-1" src="./media/landscape-975091_1920.jpg" alt="">
+
+          <h3 class="text-primary mt-3">Direttore dei lavori</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, placeat?</p>
+
+          <div class="mt-2">
+
+            <i class="fa-brands fa-instagram text-primary"></i>
+            <i class="fa-brands fa-linkedin text-primary mx-4"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+
+          </div>
+
+
+    </div>
+
+        <div class="w-full md:w-1/4 md:px-14 text-center my-10">
+
+          <img class="block mx-auto rounded-full h-32 w-32 border-primary border-solid border-2 p-1" src="./media/landscape-975091_1920.jpg" alt="">
+
+          <h3 class="text-primary mt-3">HR Resources</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, placeat?</p>
+
+          <div class="mt-2">
+
+            <i class="fa-brands fa-instagram text-primary"></i>
+            <i class="fa-brands fa-linkedin text-primary mx-4"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+
+          </div>
+
+
+    </div>
+
+    <div class="w-full md:w-1/4 md:px-14 text-center my-10">
+
+          <img class="block mx-auto rounded-full h-32 w-32 border-primary border-solid border-2 p-1" src="./media/landscape-975091_1920.jpg" alt="">
+
+          <h3 class="text-primary mt-3">Programmatore</h3>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, placeat?</p>
+
+          <div class="mt-2">
+
+            <i class="fa-brands fa-instagram text-primary"></i>
+            <i class="fa-brands fa-linkedin text-primary mx-4"></i>
+            <i class="fa-brands fa-facebook text-primary"></i>
+
+          </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <!-- Fine Sezione Il nostro team -->
+
+    <!-- Inzio Sezione I nostri servizi -->
+
+    <h2 class="uppercase text-primary text-3xl font-bold ml-10 mt-20">I nostri servizi</h2>
+
+    <!-- Contenitore Generale -->
+    
+    <div class="pt-10 ml-5">
+
+      <!-- primo contenitore -->
+
+      <div class="w-full flex flex-wrap md:flex-nowrap">
+        
+        <div class="ml-0 md:ml-5 mr-5 w-full text-center md:text-start py-5">
+          <h2 class="text-primary text-2xl">Servizio Navetta</h2>
+
+          <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Veniam quod pariatur ipsam vero alias tempore molestias ducimus repellat! Ipsa ex mollitia est magni neque sapiente cumque amet earum dolores sed.
+          
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Veniam quod pariatur ipsam vero alias tempore molestias ducimus repellat! Ipsa ex mollitia est magni neque sapiente cumque amet earum dolores sed.
+          </p>
+        </div>
+
+        <div class="w-full flex justify-center">
+          <img class="w-52 h-52 rounded-full border-primary border-2 p-1" src="./media/fog.jpg" alt="">
+        </div>
+
+
+      </div>
+
+      <!-- Fine primo contenitore -->
+
+      <!-- secondo contenitore -->
+
+      <div class="w-full flex flex-wrap md:flex-nowrap mt-20">
+
+        <div class="mr-5 w-full text-center md:text-start py-6 order-1 md:order-2">
+          <h2 class="text-primary text-2xl">Servizio B&B</h2>
+        </div>
+
+        <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Veniam quod pariatur ipsam vero alias tempore molestias ducimus repellat! Ipsa ex mollitia est magni neque sapiente cumque amet earum dolores sed.
+        
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Veniam quod pariatur ipsam vero alias tempore molestias ducimus repellat! Ipsa ex mollitia est magni neque sapiente cumque amet earum dolores sed.
+        </p>
+
+      </div>
+
+      <div class="w-full flex justify-center order-2 md:order-1">
+        <img class="w-52 h-52 rounded-full border-primary border-2 p-1" src="./media/mountain-547363_1920.jpg" alt="">
+      </div>
+
+      <!-- Fine secondo contenitore -->
+
+      <!-- alberi -->
+
+      <img class="w-full" src="./media/other.png" alt="">
+
+      <!-- Fine alberi  -->
+    </div>
+    <!-- Fine Contenitore Generale -->
+    
+    <!-- Fine Sezione I nostri servizi -->
+
+    <!-- Inizio Footer -->
+
+    <div class="bg-primary py-10 px-20 text-accent md:flex md:items-center">
+
+      <div class="w-full md:w-8/12 text-center md:text-start">
+
+        <h2 class="uppercase text-3xl font-bold">Lorem</h2>
+
+        <h3 class="text-2xl py-3">Testo generico</h3>
+
+        <p class="py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Quae soluta impedit tenetur voluptatum perspiciatis molestias fugit obcaecati eum sed 
+          eos et labore ut nostrum ratione ea non pariatur, at totam?</p>
+
+        <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, amet. Exercitationem cumque sapiente 
+            voluptatem deserunt dignissimos. Minima nihil atque omnis minus est impedit ex a, dignissimos asperiores placeat! Doloribus, voluptatum.</p>
+
+
+      </div>
+
+      <div class="flex flex-col items-center md:pl-16">
+        
+        <h3 class="text-2xl py-3 ml-[-20px]">Quick Links</h3>
+
+        <ul class="list-disc">
+          <li>Contatti</li>
+          <li>Dove siamo</li>
+          <li>Chi siamo</li>
+          <li>Il nostro team</li>
+        </ul> 
+
+      </div>
+
+
+
+    </div>
+
+
+    <!-- Fine Footer -->
+
+
+
+</body>
+</html>
